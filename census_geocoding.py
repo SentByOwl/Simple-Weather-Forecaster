@@ -1,5 +1,6 @@
 import requests
 import json
+
 '''
 This script retrieves the lat/long coordinates of a given address using the US Census geocoding API.
 It expects a full US address.
@@ -47,7 +48,6 @@ def call_api(address: str) -> list:
     y_coordinate = str(geocode_dict['result']['addressMatches'][0]['coordinates']['y'])
 
     return remove_excess_decimal_numbers(x_coordinate, y_coordinate)
-
 
 if __name__ == '__main__':
     address = input('Enter address to receive lat/long coordinates: ')
