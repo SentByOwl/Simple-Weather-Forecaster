@@ -3,10 +3,9 @@ import json
 
 '''
 This script calls the National Weather Service API and extracts the location and detailed forcast of the weather
-from the returned json. The input is a set of lat/long coordinates. This can be run as a stand along script, 
+from the returned json. The input is a set of lat/long coordinates. This can be run as a stand alone script, 
 or can be used alongside the weather_app.py script.
 '''
-
 
 def call_api(coordinates: str) -> str:
     """
@@ -37,7 +36,6 @@ def call_api(coordinates: str) -> str:
     # Make the forcast print each sentence on a new line to make it more readable
     string_forcast = string_forcast.replace('.', '.\n')
     return f'Location: \n {location}\nForcast: \n {string_forcast}'
-
 
 if __name__ == '__main__':
     print('''+-----------------------------------------------------------------------------------------------------------------------------+
