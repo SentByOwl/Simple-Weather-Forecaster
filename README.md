@@ -1,6 +1,6 @@
 ![weather_app_icon](https://github.com/user-attachments/assets/9e590657-82b3-43fe-811a-6e8624c145b4)
 
-# Simple Weather Forecaster
+# Simple-Weather-Forecaster
 
 ## Description:
 This program calls free public APIs to get weather data and returns a human readable description of the forecast to the terminal. The two APIs that I used are:
