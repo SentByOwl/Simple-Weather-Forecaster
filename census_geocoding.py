@@ -1,10 +1,10 @@
 import requests
 import json
 
-'''
+"""
 This script retrieves the lat/long coordinates of a given address using the US Census geocoding API.
 It expects a full US address.
-'''
+"""
 
 def remove_excess_decimal_numbers(x_coordinate: str, y_coordinate: str) -> list:
     """
