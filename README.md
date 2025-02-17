@@ -17,8 +17,8 @@ If you run into any issues with missing python modules, refer to the requirement
 Each module can be run on its own allowing them to be used in other projects as helper functions. To run the project as a whole, run **weather_app.py** and enter a full US address.
 
 ##More information on the APIs can be found here:
-*(https://geocoding.geo.census.gov/geocoder/)
-*(https://www.weather.gov/documentation/services-web-api)
+*https://geocoding.geo.census.gov/geocoder/
+*https://www.weather.gov/documentation/services-web-api
 
-# Legal info:
+## Legal info:
 This program is free to use under the MIT license.
