@@ -1,16 +1,10 @@
 import census_geocoding
 import national_weather_service_api
 
-'''
+"""
 This script prints the weather forcast of a given address using the National Weather Service API.
-Dependencies are:
-    census_geocoding.py
-    national_weather_service_api.py
-    
-    Note: The "x" coordinate refers to the Longitude, and the "y" coordinate refers to the latitude.
-    
-    Enter full US address.
-'''
+Enter full US address.
+"""
 
 print('\n--Pull weather data from the National Weather Service API--\n')
 while True:
