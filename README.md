@@ -25,6 +25,13 @@ You can install requests using the following command after you have installed py
 Each module can be run on its own allowing them to be used in other projects as helper functions.<br />
 To run the project as a whole, run **weather_app.py** and enter a full US address.
 
+## To-Do:
+- [ ] Create API endpoint for hosting on remote server
+- [ ] Create desktop implemenation with system tray icon (Linux)
+- [ ] Create desktop implemenation with system tray icon (Windows)
+- [ ] Create desktop implemenation with system tray icon (Mac)
+- [ ] Expand output to include full 7 day forecast
+
 ## More information on the APIs can be found here:
 * https://geocoding.geo.census.gov/geocoder/
 * https://www.weather.gov/documentation/services-web-api
